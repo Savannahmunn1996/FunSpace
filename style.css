@@ -18,5 +18,25 @@
   cursor: pointer;
   border: 2px solid darkred;
   margin: 5px;
+  float: left;
   border-radius: 12px;
+}
+
+ul {
+  float: right;
+  margin: 15px;
+  padding: 0;
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+
+.navbar {
+  background: rgb(125, 148, 174);
+}
+.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
 }
