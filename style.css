@@ -40,3 +40,12 @@ li {
   display: table;
   clear: both;
 }
+
+.sec {
+  width: 300px;
+  border: 8px solid darkred;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 12px;
+  background-color: azure;
+}
