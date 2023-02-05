@@ -1,9 +1,13 @@
 document.getElementById("btn").addEventListener("click", coolFacts);
+document.getElementById("btn").addEventListener("click", clear);
 var sec = document.querySelector(".sec");
-function coolFacts() {
-  var fact = "scientists just created the first ever worm hole!";
 
-  sec.innertext = fact;
+var fact = "scientists just created the first ever worm hole!";
+
+function coolFacts() {
+  sec.innerText = fact;
   console.log("hey");
-  return fact;
+}
+function clear() {
+  sec.innerText = "";
 }
